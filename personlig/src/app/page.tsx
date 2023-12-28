@@ -28,7 +28,7 @@ export default function Home() {
         Curabitur non lacinia libero. Donec at maximus arcu. Aenean eget
         sodales massa. Ut sed pellentesque nunc.
       </p>
-      
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
         pharetra dolor mi, at varius risus pretium at. Quisque nec pharetra
