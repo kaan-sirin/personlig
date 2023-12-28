@@ -1,3 +1,6 @@
+import Link from 'next/link'
+
+
 export default function Home() {
   return (
     <div
@@ -14,7 +17,9 @@ export default function Home() {
       <h1>Kaan Sirin</h1>
       <hr />
       <a href="#bio">Brief Bio</a> {" | "}
-      <a href="#demos">Demos</a> {" | "} <a href="#links">Links</a>
+      <a href="#demos">Demos</a> {" | "}
+      <a href="#links">Links</a> {" | "}
+      <Link href="/cheatsheets">Cheatsheets</Link>
       <hr />
       <h2 id="bio">Brief Bio</h2>
       <p>
