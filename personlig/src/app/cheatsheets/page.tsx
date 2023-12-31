@@ -1,19 +1,11 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Page() {
 
-    return (<div
-        style={{
-            maxWidth: "600pt",
-            margin: "auto",
-            marginBottom: "30px",
-            border: "1px solid gray",
-            padding: "5px 20px",
-            background: "white",
-            boxShadow: "1px 1px 10px #22222277",
-        }}
-    >
+    return (
+  <div>
         <div style={{margin: '5px', padding: "5px 10px"}}>
         <Link style={{color: 'black', textDecoration:'none' }} href="/"> &larr; Back</Link>
         </div>
@@ -21,5 +13,5 @@ export default function Page() {
         <ul>
             <li><Link href="https://colab.research.google.com/drive/1PAOwA-SZrhPndyksl8Um32z0ghBwtKG9?usp=sharing">Pandas</Link></li>
         </ul>
-    </div >)
+    </div > )
 }
