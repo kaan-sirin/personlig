@@ -47,12 +47,27 @@ body {
 
 }
 
-@media only screen and (max-width: 564pt){
+.responsive-image {
+  display: none;
+  /* Hide it by default */
+}
+
+@media only screen and (max-width: 564pt) {
   .hide-on-small {
     display: none;
   }
-  .content{
+
+  .content {
     max-width: 400pt;
   }
-}
 
+  .responsive-image {
+    display: flex;
+    position: relative;
+    height: 150pt;
+    width: 'auto';
+    max-width: 430pt;
+    margin: auto;
+    margin-top: 0;
+  }
+}

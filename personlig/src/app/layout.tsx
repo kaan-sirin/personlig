@@ -19,6 +19,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={pt_serif.className}>
+        <div className='responsive-image'>
+          <Image
+          src="/the consummation.jpg"
+          fill
+          style={{
+            flexGrow: 1,
+            margin: 'auto',
+            marginTop: 0,
+            objectFit: 'cover',
+          }}
+          alt="The consummation"
+        /></div>
+
         <div className='outer-container'>
           <div className='flex-container'>
             <div className='hide-on-small'>
