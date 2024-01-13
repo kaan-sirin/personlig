@@ -11,7 +11,8 @@ export default function Page() {
         </div>
         <h1>Cheatsheets</h1>
         <ul>
-            <li><Link href="https://colab.research.google.com/drive/1PAOwA-SZrhPndyksl8Um32z0ghBwtKG9?usp=sharing">Pandas</Link></li>
+            <li><Link href="https://colab.research.google.com/drive/1PAOwA-SZrhPndyksl8Um32z0ghBwtKG9?usp=sharing" rel="noopener noreferrer" target="_blank">Pandas</Link></li>
+            <li><Link href="https://colab.research.google.com/drive/1ew5JnfjP28l3lbudocr-cq3C7ygkelUG?usp=sharing" rel="noopener noreferrer" target="_blank"> Matplotlib </Link></li>
         </ul>
     </div > )
 }

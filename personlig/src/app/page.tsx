@@ -40,7 +40,7 @@ export default function Home() {
           <p> A list of demos:</p>
           <ul>
             <li>
-              <a href="https://huggingface.co/spaces/kaans/test">
+              <a href="https://huggingface.co/spaces/kaans/test" rel="noopener noreferrer" target="_blank">
                 Pet Classifier
               </a>
             </li>
@@ -49,7 +49,7 @@ export default function Home() {
           <p> You can find me on:</p>
           <ul>
             <li>
-              <a href="http://twitter.com/kaansirin_">Twitter</a>
+              <a href="http://twitter.com/kaansirin_" rel="noopener noreferrer" target="_blank">Twitter</a>
             </li>
           </ul>
         </div>
