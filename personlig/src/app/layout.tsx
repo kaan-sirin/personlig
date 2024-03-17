@@ -5,9 +5,11 @@ import Image from 'next/image';
 
 
 export const metadata: Metadata = {
-  title: 'K.S',
+  title: 'Kaan Sirin',
   description: 'Kaan Sirin',
 }
+
+
 
 export default function RootLayout({
   children,
