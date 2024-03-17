@@ -11,7 +11,7 @@ export default function Home() {
 
       <h2>Essays</h2>
       <ul>
-        <li><Link href="/a-days-worth" rel="noopener noreferrer" target="_blank">A day's worth</Link></li>
+        <li><Link href="/a-days-worth">A day's worth</Link></li>
       </ul>
 
 
