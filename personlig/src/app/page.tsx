@@ -3,55 +3,32 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-        <div>
-          <h1>Kaan Sirin</h1>
-          <hr />
-          <a href="#bio">Brief Bio</a> {" | "}
-          <a href="#demos">Demos</a> {" | "}
-          <a href="#links">Links</a> {" | "}
-          <Link href="/cheatsheets">Cheatsheets</Link>
-          <hr />
-          <h2 id="bio">Brief Bio</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pharetra dolor mi, at varius risus pretium at. Quisque nec pharetra
-            sem. Ut gravida dui non orci imperdiet fermentum id eget orci. Etiam
-            ut finibus lorem. Aenean placerat nulla eget erat euismod, ut mollis
-            quam fermentum. Cras sed placerat purus, gravida fermentum ligula.
-            Donec vitae ultricies dolor. Morbi mattis vulputate enim a
-            malesuada. In volutpat tellus ante, ut tincidunt nulla ornare eu.
-            Curabitur non lacinia libero. Donec at maximus arcu. Aenean eget
-            sodales massa. Ut sed pellentesque nunc.
-          </p>
+    <div style={{ width: '426px', margin: '5px', padding: "5px 10px" }}>
+      <h1>Kaan Sirin</h1>
+      <p>
+        Working currently on smart scheduling systems.
+      </p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pharetra dolor mi, at varius risus pretium at. Quisque nec pharetra
-            sem. Ut gravida dui non orci imperdiet fermentum id eget orci. Etiam
-            ut finibus lorem. Aenean placerat nulla eget erat euismod, ut mollis
-            quam fermentum. Cras sed placerat purus, gravida fermentum ligula.
-            Donec vitae ultricies dolor. Morbi mattis vulputate enim a
-            malesuada. In volutpat tellus ante, ut tincidunt nulla ornare eu.
-            Curabitur non lacinia libero. Donec at maximus arcu. Aenean eget
-            sodales massa. Ut sed pellentesque nunc.
-          </p>
+      <h2>Essays</h2>
+      <ul>
+        <li><Link href="/a-days-worth" rel="noopener noreferrer" target="_blank">A day's worth</Link></li>
+      </ul>
 
-          <h2 id="demos">Demos</h2>
-          <p> A list of demos:</p>
-          <ul>
-            <li>
-              <a href="https://huggingface.co/spaces/kaans/test" rel="noopener noreferrer" target="_blank">
-                Pet Classifier
-              </a>
-            </li>
-          </ul>
-          <h2 id="links">Links</h2>
-          <p> You can find me on:</p>
-          <ul>
-            <li>
-              <a href="http://twitter.com/kaansirin_" rel="noopener noreferrer" target="_blank">Twitter</a>
-            </li>
-          </ul>
-        </div>
-      )
+
+
+      <h2>Cheatsheets</h2>
+      <ul>
+        <li><Link href="https://colab.research.google.com/drive/1PAOwA-SZrhPndyksl8Um32z0ghBwtKG9?usp=sharing" rel="noopener noreferrer" target="_blank">Pandas</Link></li>
+        <li><Link href="https://colab.research.google.com/drive/1ew5JnfjP28l3lbudocr-cq3C7ygkelUG?usp=sharing" rel="noopener noreferrer" target="_blank"> Matplotlib </Link></li>
+      </ul>
+
+
+      <h3 id="links">Socials</h3>
+      <ul>
+        <li>
+          <a href="http://twitter.com/kaansirin_" rel="noopener noreferrer" target="_blank">Twitter</a>
+        </li>
+      </ul>
+    </div>
+  )
 }
